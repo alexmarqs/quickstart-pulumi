@@ -1,0 +1,16 @@
+{
+  "name": "hello-pulumi",
+  "scripts": {
+    "deploy": "pulumi up",
+    "stack-output": "pulumi stack output"
+  },
+  "devDependencies": {
+    "@types/node": "^10.0.0"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@pulumi/aws": "^3.25.1",
+    "@pulumi/awsx": "^0.24.0",
+    "@pulumi/pulumi": "^2.0.0"
+  }
+}
